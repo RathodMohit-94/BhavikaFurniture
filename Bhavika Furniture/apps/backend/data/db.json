@@ -1,0 +1,366 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "role": "ADMIN"
+    }
+  ],
+  "products": [
+    {
+      "sku": "NF-001",
+      "description": "<p>Add a helpful product description.</p>",
+      "stock": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80"
+      ],
+      "active": "true",
+      "publish_status": "Published",
+      "publish_at": "",
+      "id": 1,
+      "title": "Luxury Sofa",
+      "price": 999,
+      "category": "living",
+      "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "sku": "NF-002",
+      "description": "<p>Add a helpful product description.</p>",
+      "stock": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80"
+      ],
+      "active": "true",
+      "publish_status": "Published",
+      "publish_at": "",
+      "id": 2,
+      "title": "Oak Dining Table",
+      "price": 499,
+      "category": "dining",
+      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "categories": [
+    {
+      "description": "<p>Explore this curated furniture collection.</p>",
+      "image": "http://localhost:3000/uploads/1782569874647-330465614.png",
+      "starting_price": "$199",
+      "order": 1,
+      "active": "true",
+      "publish_status": "Published",
+      "publish_at": "",
+      "id": "living",
+      "name": "Living Room",
+      "slug": "living"
+    },
+    {
+      "description": "<p>Explore this curated furniture collection.</p>",
+      "image": "",
+      "starting_price": "$199",
+      "order": 2,
+      "active": "true",
+      "publish_status": "Published",
+      "publish_at": "",
+      "id": "bedroom",
+      "name": "Bedroom",
+      "slug": "bedroom"
+    },
+    {
+      "description": "<p>Explore this curated furniture collection.</p>",
+      "image": "",
+      "starting_price": "$199",
+      "order": 3,
+      "active": "true",
+      "publish_status": "Published",
+      "publish_at": "",
+      "id": "dining",
+      "name": "Dining",
+      "slug": "dining"
+    },
+    {
+      "description": "<p>Explore this curated furniture collection.</p>",
+      "image": "",
+      "starting_price": "$199",
+      "order": 4,
+      "active": "true",
+      "publish_status": "Published",
+      "publish_at": "",
+      "id": "office",
+      "name": "Office",
+      "slug": "office"
+    }
+  ],
+  "home_page": [
+    {
+      "id": 1,
+      "hero_title": "Elevate Your Space",
+      "hero_subtitle": "Discover the finest selection of premium furniture designed to bring warmth, elegance, and absolute comfort into your home.",
+      "hero_bg_image": "http://localhost:3000/uploads/1782580284063-198899477.png",
+      "hero_cta_text": "Explore the collection",
+      "hero_cta_link": "path such as /category"
+    }
+  ],
+  "about_page": [
+    {
+      "id": 1,
+      "about_title": "Our Story",
+      "about_text_1": "Founded with a passion for exceptional design, Bhavika Furniture has grown to become a leading provider of high-quality furniture. We believe that your home should be a reflection of your personality and a sanctuary for comfort.",
+      "about_text_2": "Our mission is to bring you beautifully crafted, sustainable furniture that stands the test of time. From modern minimalist designs to classic staples, every piece in our collection is curated with care and precision by our master artisans.",
+      "about_image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "contact_settings": [
+    {
+      "id": 1,
+      "address": "ewqgwhg",
+      "phone": "741852963",
+      "email": "hello@newfur.com"
+    }
+  ],
+  "page_visibility": [
+    {
+      "id": 1,
+      "home_page": true,
+      "about_page": true,
+      "contact_settings": true,
+      "categories": true,
+      "products": true
+    }
+  ],
+  "orders": [
+    {
+      "id": 1001,
+      "order_number": "NF-1001",
+      "customer_name": "Aarav Shah",
+      "customer_email": "aarav@example.com",
+      "total": 1498,
+      "status": "Processing",
+      "payment_status": "Paid",
+      "fulfillment_status": "Preparing",
+      "tracking_number": "",
+      "created_at": "2026-06-27T08:43:46.322Z"
+    },
+    {
+      "id": 1002,
+      "order_number": "NF-1002",
+      "customer_name": "Maya Patel",
+      "customer_email": "maya@example.com",
+      "total": 499,
+      "status": "New",
+      "payment_status": "Paid",
+      "fulfillment_status": "Unfulfilled",
+      "tracking_number": "",
+      "created_at": "2026-06-27T08:43:46.322Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": 2001,
+      "name": "Aarav Shah",
+      "email": "aarav@example.com",
+      "phone": "+91 98765 43210",
+      "total_orders": 3,
+      "lifetime_value": 2897,
+      "status": "Active",
+      "joined_at": "2026-06-27T08:43:46.322Z"
+    },
+    {
+      "id": 2002,
+      "name": "Maya Patel",
+      "email": "maya@example.com",
+      "phone": "+91 91234 56789",
+      "total_orders": 1,
+      "lifetime_value": 499,
+      "status": "Active",
+      "joined_at": "2026-06-27T08:43:46.322Z"
+    }
+  ],
+  "coupons": [
+    {
+      "id": 3001,
+      "code": "WELCOME10",
+      "type": "Percentage",
+      "value": 10,
+      "minimum_order": 500,
+      "usage_limit": 100,
+      "expires_at": "",
+      "active": "true"
+    }
+  ],
+  "media": [],
+  "seo_settings": [
+    {
+      "id": 4001,
+      "page": "Home",
+      "meta_title": "Bhavika Furniture — Furniture for colourful living",
+      "meta_description": "Discover characterful furniture, playful forms, and everyday comfort from Bhavika Furniture.",
+      "social_image": "",
+      "index_status": "Index"
+    }
+  ],
+  "admin_users": [
+    {
+      "id": 5001,
+      "name": "Store Owner",
+      "email": "admin@newfur.com",
+      "role": "Owner",
+      "status": "Active",
+      "last_active": "2026-06-27T08:43:46.322Z"
+    }
+  ],
+  "shipping_settings": [
+    {
+      "id": 6001,
+      "zone_name": "Domestic",
+      "countries": "India",
+      "rate": 499,
+      "free_shipping_threshold": 2500,
+      "estimated_delivery": "5–8 business days",
+      "active": "true"
+    }
+  ],
+  "activity_log": [
+    {
+      "id": 1782580287225,
+      "action": "Updated",
+      "entity": "home_page",
+      "item": "Item 1",
+      "user": "Store Owner",
+      "timestamp": "2026-06-27T17:11:26.771Z"
+    },
+    {
+      "id": 1782579673604,
+      "action": "Updated",
+      "entity": "home_page",
+      "item": "Item 1",
+      "user": "Store Owner",
+      "timestamp": "2026-06-27T17:01:13.409Z"
+    },
+    {
+      "id": 1782579251313,
+      "action": "Updated",
+      "entity": "contact_addresses",
+      "item": "Item 1782569359712",
+      "user": "Store Owner",
+      "timestamp": "2026-06-27T16:54:11.154Z"
+    },
+    {
+      "id": 1782569880154,
+      "action": "Updated",
+      "entity": "categories",
+      "item": "Living Room",
+      "user": "Store Owner",
+      "timestamp": "2026-06-27T14:17:59.197Z"
+    },
+    {
+      "id": 1782569718040,
+      "action": "Updated",
+      "entity": "page_visibility",
+      "item": "Item 1",
+      "user": "Store Owner",
+      "timestamp": "2026-06-27T14:15:17.343Z"
+    },
+    {
+      "id": 1782569715312,
+      "action": "Updated",
+      "entity": "page_visibility",
+      "item": "Item 1",
+      "user": "Store Owner",
+      "timestamp": "2026-06-27T14:15:14.716Z"
+    },
+    {
+      "id": 1782569595009,
+      "action": "Created",
+      "entity": "home_testimonials",
+      "item": "Mohit rathod",
+      "user": "Store Owner",
+      "timestamp": "2026-06-27T14:13:14.575Z"
+    },
+    {
+      "id": 1782569360425,
+      "action": "Created",
+      "entity": "contact_addresses",
+      "item": "Item 1782569359712",
+      "user": "Store Owner",
+      "timestamp": "2026-06-27T14:09:19.712Z"
+    },
+    {
+      "id": 1782569320585,
+      "action": "Created",
+      "entity": "contact_emails",
+      "item": "mi@gmail.com",
+      "user": "Store Owner",
+      "timestamp": "2026-06-27T14:08:40.184Z"
+    },
+    {
+      "id": 1782569295373,
+      "action": "Created",
+      "entity": "contact_locations",
+      "item": "motor servo",
+      "user": "Store Owner",
+      "timestamp": "2026-06-27T14:08:15.174Z"
+    },
+    {
+      "id": 1782569246555,
+      "action": "Created",
+      "entity": "contact_phones",
+      "item": "Item 1782569246449",
+      "user": "Store Owner",
+      "timestamp": "2026-06-27T14:07:26.450Z"
+    },
+    {
+      "id": 7001,
+      "action": "Workspace created",
+      "entity": "system",
+      "item": "Bhavika Furniture commerce studio",
+      "user": "Store Owner",
+      "timestamp": "2026-06-27T08:43:46.322Z"
+    }
+  ],
+  "contact_phones": [
+    {
+      "id": 1782569246449,
+      "number": "6385274196",
+      "label": "sales",
+      "active": "true"
+    }
+  ],
+  "contact_locations": [
+    {
+      "id": 1782569295174,
+      "name": "motor servo",
+      "address": "bhavika njieghe",
+      "image": "http://localhost:3000/uploads/1782569290993-436675963.jpg",
+      "active": "true"
+    }
+  ],
+  "contact_emails": [
+    {
+      "id": 1782569320184,
+      "email": "mi@gmail.com",
+      "label": "support",
+      "active": "true"
+    }
+  ],
+  "contact_addresses": [
+    {
+      "id": 1782569359712,
+      "street": "dhruv nu ghar arbudanagar",
+      "city": "Ahmedabad",
+      "state": "gujarat",
+      "zip": "302021",
+      "country": "india",
+      "active": "true"
+    }
+  ],
+  "home_testimonials": [
+    {
+      "id": 1782569594575,
+      "name": "Mohit rathod",
+      "text": "efgwyienfkjwhreifhb3iwhrf",
+      "rating": 5,
+      "image": "http://localhost:3000/uploads/1782569592604-299177243.png",
+      "active": "true"
+    }
+  ]
+}

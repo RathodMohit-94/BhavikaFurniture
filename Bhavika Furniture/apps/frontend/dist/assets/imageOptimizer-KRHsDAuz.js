@@ -1,0 +1,1 @@
+function a(t,r=800){if(!t)return"";if(t.includes("images.unsplash.com"))try{const e=new URL(t);e.searchParams.set("fm","webp"),e.searchParams.set("q","75");const s=e.searchParams.get("w");return(!s||parseInt(s,10)>r)&&e.searchParams.set("w",r.toString()),e.toString()}catch{return t}return t}export{a as o};

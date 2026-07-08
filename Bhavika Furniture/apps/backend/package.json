@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@repo/schemas": "workspace:*",
+    "cloudinary": "^2.10.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "mongoose": "^9.7.3",
+    "multer": "^2.2.0",
+    "multer-storage-cloudinary": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data/*",
+      "public/uploads/*"
+    ]
+  }
+}
